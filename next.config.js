@@ -1,11 +1,6 @@
-const withTM = require('next-transpile-modules')();
 
-module.exports = withTM({
-  experimental: {
-    modern: true,
-    asset: true,
-  },
+module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-});
+};
